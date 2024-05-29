@@ -14,6 +14,7 @@ public class SearchResult {
     private String kind;
 
     public SearchResult() {
+        
     }
 
     public SearchResult(String city, String title, String kind) {

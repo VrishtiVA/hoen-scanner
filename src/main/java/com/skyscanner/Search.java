@@ -8,7 +8,6 @@ public class Search {
     private String city;
 
     public Search() {
-        
     }
 
     public Search(String city) { this.city = city; }
