@@ -14,7 +14,6 @@ public class SearchResult {
     private String kind;
 
     public SearchResult() {
-        
     }
 
     public SearchResult(String city, String title, String kind) {
@@ -26,5 +25,7 @@ public class SearchResult {
     public String getCity() { return city; }
     public String getTitle() { return title; }
     public String getKind() { return kind; }
+
+    public void setKind(String kind) { this.kind = kind; }
 
 }
